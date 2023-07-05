@@ -1,6 +1,7 @@
 import time
 from python.utils import get_input
 
+day = 2
 RESULTS = {"Z": "B", "X": "C", "Y": "A"}
 
 def main(input):
@@ -19,5 +20,5 @@ def main(input):
 
 if __name__ == "__main__":
     start = time.perf_counter()
-    main(get_input(2))
+    main(get_input(day))
     print(f"{(time.perf_counter() - start) * 1000:.3f}ms")

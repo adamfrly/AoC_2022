@@ -4,7 +4,7 @@ from python.utils import get_input
 day = 0
 
 def main(input):
-    pass
+    print(input)
 
 if __name__ == '__main__':
     start = time.perf_counter()
