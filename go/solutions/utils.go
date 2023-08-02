@@ -1,4 +1,4 @@
-package days
+package solutions
 
 func check(e error) {
 	if e != nil {
