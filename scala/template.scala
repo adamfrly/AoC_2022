@@ -4,5 +4,6 @@ object day0X {
     def main(args: Array[String]) = {
         val input = scala.io.Source.fromFile("../../inputs/day0X.txt").mkString
         println(input)
+        val sets_name = input.split("\n").toArray
     }
 }
